@@ -9,12 +9,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npx lint-staged"
     }
   },
 "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css}": [
-        "prettier --write"
+        "lint"
         
     ] 
 },
