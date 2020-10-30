@@ -2,7 +2,7 @@
   "name": "daniel-hello-world",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "module": "dist/index.esm.js",
   "scripts": {
     "build": "rollup -c rollup.config.ts",
     "lint": "eslint 'src/**/*.{js,ts,tsx}' --fix",
